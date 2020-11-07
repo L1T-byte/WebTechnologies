@@ -1,0 +1,23 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+table, td, tr, th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#pheading{
+    display: inline-block;
+}
+fieldset{
+    width: 600px;
+    border-radius: 10px;
+}
+
+
+#custinf label{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
