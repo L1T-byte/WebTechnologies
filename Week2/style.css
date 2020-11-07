@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#left{
+    width: 49.8%;
+    height: 450px;
+    float: left;
+}
+
+#right{
+    width: 49.8%;
+    height: 450px;
+    float: right;
+}
+
+#footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12.9px;
+    color: gray;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-family: Helvetica;
+}
+
+#left img{
+    width: 100%;
+    height: 520px;
+    }
+
+#right img{
+    width: 40px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 120px;
+    }
+
+#t1 {
+    margin-left: 120px;
+    color: black;
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#t2{
+    margin-left: 120px;
+    color: black;
+    margin-top: 50px;
+    font-family: Helvetica; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#b1{
+    width: 380px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: #1DA1F2;
+    border-radius: 25px;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+}
+
+#b2{
+    width: 380px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 25px;
+    color: #1DA1F2;
+    border: 1px solid;
+    border-color: #1DA1F2;
+    font-weight: bold;
+}
+
+#trademark{
+    margin-left: 560px;
+    margin-top: 10px;
+}
+
+.para{
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+#footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#right button:hover{
+    filter: brightness(95%);
+}
