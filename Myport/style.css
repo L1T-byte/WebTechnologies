@@ -1,0 +1,114 @@
+/*This is the style for the first page called index.html*/
+*{
+    margin: none;
+    padding:none;
+}
+
+#left{
+    width: 50%;
+    height: 450px;
+    float: left;
+}
+
+#right{
+    width: 50%;
+    height: 450px;
+    float: right;
+}
+
+#footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 13px;
+    color: gray;
+    margin-left: 11px;
+    margin-bottom: 16px;
+    font-family: Helvetica;
+    text-shadow: 1px 1px;
+    text-transform: capitalize;
+}
+
+#left img{
+    width: 117%;
+    height: 520px;
+    }
+
+#right img{
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    margin-left: 120px;
+    transform: scaleX(-1);
+    box-shadow: rgba(11, 91, 117, 0.5);
+    }
+
+#t1 {
+    margin-left: 120px;
+    color: black;
+    margin-top: 30px;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#t2{
+    margin-left: 120px;
+    color: black;
+    margin-top: 50px;
+    font-family: Helvetica; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#b1{
+    width: 380px;
+    height: 91px;
+    margin-left: 167px;
+    margin-top: 20px;
+    background-color: #1DA1F2;
+    border-radius: 25px;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#trademark{
+    margin-left: 560px;
+    margin-top: 10px;
+}
+
+.para{
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+#footer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#right button:hover{
+    filter: brightness(90%);
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*Style for the second page named main.html*/
+
+.img{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #tick{
+      float:left;
+      position:relative;
+  }
+
+
+
+  
+

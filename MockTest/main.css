@@ -1,0 +1,37 @@
+table, td, tr, th{
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: 360px;
+}
+#wrapper{
+    width: 920px;
+    margin: auto;
+}
+#header{
+    background-color:  lightgray;
+}
+#Main_section{
+    background-color: lightgray;
+
+}
+#footer{
+    background-color: lightgray;
+}
+a{
+    text-decoration: none;
+}
+#About_me{
+    height: 80px;
+    background-color: white;
+    margin-left:5px;
+    width: 49%;
+    float: left;
+}
+#Background{
+    height: 80px;
+    background-color: white;
+    margin-right:5px;
+    width: 49%;
+    float: right;
+}

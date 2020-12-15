@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MainPage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+}
+    /*This is the style for the main.html page*/
+
+/* Style the body of the page */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header*/
+  .header {
+    padding: 80px;
+    text-align: center;
+    background-image:url(image/pic.jpeg);
+    color: white;
+}
+
+/* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+}
+
+/* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+  .navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(211, 212, 236);
+    color: rgb(2, 2, 2);
+}
+
+/* Column container */
+  .row {  
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+  .side {
+    -ms-flex: 30%; 
+    flex: 30%;
+    background-color: #dddada;
+    padding: 20px;
+}
+
+/* Main column */
+  .main {   
+    -ms-flex: 70%; 
+    flex: 70%;
+    background-color: rgb(252, 245, 245);
+    padding: 20px;
+}
+
+  .img:hover {
+    width: 100%;
+    padding: 20px;
+    box-shadow: rgba(11, 91, 117, 0.5);
+    transform: scaleX(-1);
+    
+  
+}
+
+/* Footer */
+  .footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+<body>
+<!--This is header-->
+<div class="header">
+  <h1>Teofil's Portofolio Sample Website</h1>
+  <p>All our dreams can come true, if we have the courage to pursue them!</p>
+</div>
+
+<div class="navbar">
+  <a href="main.html">Home</a>
+  <a href="comment.html">Leave a comment</a>
+  <a href="index.html">Exit</a>
+  <a href="timeline.html" class="right">Timeline</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Myself</h2>
+    <h5>Photo of me:</h5>
+    <!--I had to include the style inside the code,to make each image react separetly-->
+    <div class="img" style="height:200px;"><img src="image/me.jpeg" height= "180px" width="90%" ></div>
+    <p>Hello, my name is Laiu Teofil.</p>
+    <h3>Hobbies</h3>
+    <p>Some of the things that would characterise me would be:</p>
+    <div class="img" style="height:60px;"><img src="image/reading.jpeg" height= "120px" width="90%"></div><br><br><br><br><br>
+    <div class="img" style="height:60px;"><img src="image/travel.jpg" height= "120px" width="90%"></div><br><br><br><br><br>
+    <div class="img" style="height:60px;"><img src="image/helping.jpg" height="120px" width="90%"></div>
+    </div>
+  <div class="main">
+    <h2>Confidential Data</h2>
+    <h5>Through work, will and devotion we can overcome any obstacle of life.</h5>
+    
+    <!-- Youtube video section -->
+    <iframe width="100%" height="300px" src="https://www.youtube.com/embed/3vN-6A2zbsk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <!--the image under the youtube video-->
+    <div class id="img1" style="height:200px;"><img src="image/work.png" height="200px" width="100%"></div>
+    <p>Since youth, my dad instructed me that work is advantageous and beneficial on all levels, so I followed his recommendation and had the opportunity to work.</p>
+    <p>I'm a characteristic leader. I've in the long run been elevated to a position of authority in pretty much every employment since I like to help individuals. I discover associates for the most part come to me with questions or concerns in any event, when I'm not in an influential position since, supposing that I don't have the foggiest idea about the appropriate response, I'll at any rate point them the correct way.</p>
+    <br>
+    <h2>Contact me:</h2>
+    <div class id="img3" style="height:250px;"><img src="image/email.jpg" height="200px" width="65%"></div>
+    <p>Email address: <a href="mailto:5LAIUT31@solent.ac.uk">5LAIUT31@solent.ac.uk</a></p>
+  </div>
+</div>
+
+  <div class="footer">
+    <h2><p><span id="date"></span></p>
+
+      <script>
+      var dt = new Date();
+      document.getElementById("date").innerHTML = dt.toLocaleString();
+      </script></h2>
+  </div>
+
+
+</body>
+</html>

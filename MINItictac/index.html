@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic tac toe</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="game.js"></script>
+    </head>
+    <body>
+        <table id="tab">
+            <tr>
+                <td id="c1" onclick="displayLetter('c1')"></td>
+                <td id="c2" onclick="displayLetter('c2')"></td>
+                <td id="c3" onclick="displayLetter('c3')"></td>
+            </tr>
+            <tr>
+                <td id="c4" onclick="displayLetter('c4')"></td>
+                <td id="c5" onclick="displayLetter('c5')"></td>
+                <td id="c6" onclick="displayLetter('c6')"></td>
+            </tr>
+            <tr>
+                <td id="c7" onclick="displayLetter('c7')"></td>
+                <td id="c8" onclick="displayLetter('c8')"></td>
+                <td id="c9" onclick="displayLetter('c9')"></td>
+            </tr>
+        </table>
+        <p id="result"></p>
+        <button onclick="startOver()">Start Over</button>
+    </body>
+</html>

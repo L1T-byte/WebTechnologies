@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Survey Form</title>
+        <script src="validation.js"></script>
+    </head>
+
+    <body>
+        <a href="index.html">Home</a>
+        <a href="">Survey Form</a>
+
+        <br><br><br>
+        
+            <h2>User Survey</h2>
+            <hr>
+            <h4>User Information</h4>
+            <p>Please enter your details below</p>
+
+            <label>Name (required)</label><input id="uname" name="userName" type="text"><br><br>
+            <label>Email (required)</label><input name="email" type="email"><br><br>
+            <label>Phone (required)</label><input id="phoneNumber" name="phone" type="text"><br><br>
+            <hr>
+            <p>Please choose your favourite types of books.Check all that apply</p>
+            <input name="bookChoice0" type="checkbox"><label>Science Fiction</label>
+            <input name="bookChoice1" type="checkbox"><label>Travel Guide</label>
+            <input name="bookChoice2" type="checkbox"><label>Short Story Collection</label>
+            <input name="bookChoice3" type="checkbox"><label>Other</label>
+            <br><br>
+            <textarea cols="50" rows="8"></textarea>
+            <br>
+            <button onclick="validNo()">Submit</button><button>Reset Form</button>
+        
+    </body>
+</html>
