@@ -1,3 +1,3 @@
-# WebTechnologies
+# StarterPack
 
 learning samples
